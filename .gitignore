@@ -3,6 +3,9 @@
 # Package Files #
 *.jar
 *.war
+*.project
+*.classpath
+
 
 # gwt caches and compiled units #
 war/gwt_bree/
@@ -15,6 +18,8 @@ gwt-unitCache/
 war/WEB-INF/deploy/
 war/WEB-INF/classes/
 target/
+.settings/
+
 
 #compilation logs
 .gwt/
