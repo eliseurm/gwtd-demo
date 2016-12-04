@@ -47,9 +47,6 @@ public class LoginPresenter extends Presenter<LoginPresenter.MyView, LoginPresen
     @Override
     public void confirm(String username, String password) {
 	if (validateCredentials(username, password)) {
-	    currentUser.setLoggedIn(true);
-	}
-	if (validateCredentials(username, password)) {
 	        currentUser.setLoggedIn(true);
 
 	        PlaceRequest placeRequest = new PlaceRequest.Builder()

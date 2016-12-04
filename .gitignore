@@ -19,6 +19,7 @@ war/WEB-INF/deploy/
 war/WEB-INF/classes/
 target/
 .settings/
+src/main/webapp/WEB-INF/classes/
 
 
 #compilation logs
