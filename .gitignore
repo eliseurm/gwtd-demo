@@ -15,11 +15,13 @@ gwt-unitCache/
 .apt_generated/
 
 # more caches and things from deploy #
-war/WEB-INF/deploy/
-war/WEB-INF/classes/
 target/
 .settings/
+
+src/main/webapp/WEB-INF/deploy/
 src/main/webapp/WEB-INF/classes/
+src/main/webapp/GwtdTutorial/
+
 
 
 #compilation logs
