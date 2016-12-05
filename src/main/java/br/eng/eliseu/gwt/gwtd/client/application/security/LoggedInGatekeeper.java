@@ -16,8 +16,7 @@ public class LoggedInGatekeeper implements Gatekeeper {
     
     @Override
     public boolean canReveal() {
-	// TODO Auto-generated method stub
-	return false;
+	return currentUser.isLoggedIn();
     }
 
 }

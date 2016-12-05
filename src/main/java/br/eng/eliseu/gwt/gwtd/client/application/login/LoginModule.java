@@ -26,7 +26,6 @@ public class LoginModule extends AbstractPresenterModule {
 	bindPresenter(LoginPresenter.class, LoginPresenter.MyView.class, LoginView.class, LoginPresenter.MyProxy.class);
 
         bind(LoginUiHandlers.class).to(LoginPresenter.class);
-//        bind(PlaceManager.class).in(Singleton.class);
 
     }
 }
