@@ -8,6 +8,7 @@ import br.eng.eliseu.gwt.gwtd.client.place.NameTokens;
 import br.eng.eliseu.gwt.gwtd.client.resources.ResourceLoader;
 
 public class ClientModule extends AbstractPresenterModule {
+	
     @Override
     protected void configure() {
         install(new DefaultModule

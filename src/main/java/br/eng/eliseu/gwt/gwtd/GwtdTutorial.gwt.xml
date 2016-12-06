@@ -5,6 +5,7 @@
     <inherits name='com.google.gwt.user.User'/>
     <inherits name="com.gwtplatform.mvp.MvpWithEntryPoint"/>
 
+
     <extend-configuration-property name="gin.ginjector.modules" value="br.eng.eliseu.gwt.gwtd.client.gin.ClientModule"/>
 
     <!-- Specify the paths for translatable code                    -->
