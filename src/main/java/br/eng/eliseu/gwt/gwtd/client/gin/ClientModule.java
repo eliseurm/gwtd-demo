@@ -2,6 +2,7 @@ package br.eng.eliseu.gwt.gwtd.client.gin;
 
 import com.gwtplatform.mvp.client.gin.AbstractPresenterModule;
 import com.gwtplatform.mvp.client.gin.DefaultModule;
+import com.gwtplatform.mvp.client.proxy.DefaultPlaceManager;
 
 import br.eng.eliseu.gwt.gwtd.client.application.ApplicationModule;
 import br.eng.eliseu.gwt.gwtd.client.place.NameTokens;
