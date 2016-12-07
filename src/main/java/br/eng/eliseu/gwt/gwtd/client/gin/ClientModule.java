@@ -2,7 +2,7 @@ package br.eng.eliseu.gwt.gwtd.client.gin;
 
 import com.gwtplatform.mvp.client.gin.AbstractPresenterModule;
 import com.gwtplatform.mvp.client.gin.DefaultModule;
-import com.gwtplatform.mvp.client.proxy.DefaultPlaceManager;
+import com.gwtplatform.mvp.client.proxy.PlaceManager;
 
 import br.eng.eliseu.gwt.gwtd.client.application.ApplicationModule;
 import br.eng.eliseu.gwt.gwtd.client.place.NameTokens;
@@ -21,5 +21,8 @@ public class ClientModule extends AbstractPresenterModule {
         install(new ApplicationModule());
 
         bind(ResourceLoader.class).asEagerSingleton();
+        
+        bind(PlaceManager.class).asEagerSingleton();
+
     }
 }
